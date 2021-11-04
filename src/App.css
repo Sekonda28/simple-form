@@ -1,0 +1,104 @@
+/* Other rules */
+/* COMMON RULES */
+
+.App {
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 26.7px;
+    font-weight: 700;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+span {
+    font-size: 12px;
+    line-height: 10px;
+    margin-bottom: 5px
+}
+
+p {
+    font-size: 16px;
+    line-height: 13.3px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    line-height: 12.5px;
+    background-color: #5C47D3;
+    padding: 15px 5px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border-style: inherit
+}
+
+/* FORM */
+.form-page {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input {
+    padding: 15px 5px;
+    margin-bottom: 20px;
+    background-color: #FCF9F9;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+/* RESULTS PAGE */
+
+.results-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.results-table {
+    background-color: #F2F2F2;
+    padding: 20px 20px 0px 20px;
+    width: 300px;
+    border-radius: 5px
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    bottom: 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer span {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+}
